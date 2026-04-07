@@ -1,16 +1,16 @@
 class Mmcli < Formula
   desc "Command-line Valheim mod manager for macOS"
   homepage "https://github.com/jneb802/mmcli"
-  version "0.3.0"
+  version "0.12.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/jneb802/mmcli/releases/download/v0.3.0/mmcli-darwin-arm64"
-      sha256 "739a7a39c3cc6a30dec7d0126c89f521d0639ef83818d159c6648c8d7bc4d0bd"
+      url "https://github.com/jneb802/mmcli/releases/download/v0.12.0/mmcli-darwin-arm64"
+      sha256 "bb52a36c398d08680ddaf6ac087c4ebfe8ec161e3dbfcb3b7cae5a584c2aac46"
     else
-      url "https://github.com/jneb802/mmcli/releases/download/v0.3.0/mmcli-darwin-amd64"
-      sha256 "e1bca24f2229ad6f4fb7d2d0eb8890f426f3d98dc84780fa8471abd4c954cd6d"
+      url "https://github.com/jneb802/mmcli/releases/download/v0.12.0/mmcli-darwin-amd64"
+      sha256 "633ef554ccb980ee1db3c67858a01b09ee37acff893312d1d8f43c4eda352509"
     end
   end
 
