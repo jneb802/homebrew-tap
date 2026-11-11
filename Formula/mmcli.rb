@@ -1,22 +1,22 @@
 class Mmcli < Formula
   desc "Command-line Valheim mod manager"
   homepage "https://github.com/jneb802/mmcli"
-  version "0.12.17"
+  version "0.12.18"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/jneb802/mmcli/releases/download/v0.12.17/mmcli-darwin-arm64"
-      sha256 "f859c55cab9a7110c25cd39e5cbf6b4523cc32994363b1dcfcaedc230c534924"
+      url "https://github.com/jneb802/mmcli/releases/download/v0.12.18/mmcli-darwin-arm64"
+      sha256 "b403fc5a82940055882ce1b3c8f5b37e8fca69f873770b262e9bf5fafa900bf2"
     else
-      url "https://github.com/jneb802/mmcli/releases/download/v0.12.17/mmcli-darwin-amd64"
-      sha256 "3ef25b637907318291ab133600c9a0f9dbe5b6fd696e8609a6cdb9569109b275"
+      url "https://github.com/jneb802/mmcli/releases/download/v0.12.18/mmcli-darwin-amd64"
+      sha256 "15a3b7fc4b8158723eabbee25dfeea77ba025802243072afe24914417fb3e82e"
     end
   end
 
   on_linux do
-    url "https://github.com/jneb802/mmcli/releases/download/v0.12.17/mmcli-linux-amd64"
-    sha256 "96c24f44977ddd6f996c9bc2f31d1aba1dd1788897429327d1599a54208f2a8e"
+    url "https://github.com/jneb802/mmcli/releases/download/v0.12.18/mmcli-linux-amd64"
+    sha256 "cd2113eb12baefab053c936346a45a74607a99adde3148782c86e5791adcfa01"
   end
 
   def install
